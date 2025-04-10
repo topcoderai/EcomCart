@@ -1,0 +1,13 @@
+09:26:30.348 [main] INFO  com.shopping.Main - Shopping Basket Pricing Application Started
+09:26:30.352 [main] INFO  com.shopping.pricing.RuleEngine - Rule engine initialized
+09:26:30.354 [main] INFO  com.shopping.pricing.RuleEngine - Added new pricing rule with priority 10
+09:26:30.355 [main] INFO  com.shopping.pricing.RuleEngine - Added new pricing rule with priority 20
+09:26:30.355 [main] INFO  com.shopping.service.PricingService - PricingService initialized with pricing rules
+09:26:30.355 [main] INFO  com.shopping.pricing.RuleEngine - Added new pricing rule with priority 15
+09:26:30.355 [main] INFO  com.shopping.service.PricingService - Added buy 2 get 1 free rule for Apple (35p), priority 15
+09:26:30.355 [main] INFO  com.shopping.service.PricingService - Calculating price for basket with 8 items
+09:26:30.360 [main] INFO  com.shopping.service.PricingService - Total basket price: 170p
+09:26:30.360 [main] INFO  com.shopping.Main - Sample shopping basket:
+09:26:30.361 [main] INFO  com.shopping.Main - Items: [Apple, Apple, Banana, Melon, Melon, Lime, Lime, Lime]
+09:26:30.361 [main] INFO  com.shopping.Main - Total price: 170p
+09:26:30.363 [main] INFO  com.shopping.Main - Shopping Basket Pricing Application Completed
